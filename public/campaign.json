@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/hRpfbYf/closeup-shot-boy-getting-checkup.jpg",
+      "title": "Provide Clean Water for Children's Health",
+      "price": "$290.00",
+      "description": "Description for Item 1",
+      "category": "Health",
+      "card_bg_color": "rgba(0, 82, 255, 0.15)",
+      "category_bg_color": "rgba(0, 82, 255, 0.20)",
+      "text_color": "#0052FF",
+      "button_color": "#FF5733"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/sjzL5H3/Education.png",
+      "title": "Support Quality Education for All",
+      "price": "$290.00",
+      "description": "Description for Item 2",
+      "category": "Education",
+      "card_bg_color": "rgba(255, 68, 74, 0.15)",
+      "category_bg_color": "rgba(255, 68, 74, 0.20)",
+      "text_color": "#FF444A",
+      "button_color": "#FF5733"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/bKdJVHK/12178768-4934495.jpg",
+      "title": "Donate Clothing for Those in Need",
+      "price": "$290.00",
+      "description": "Description for Item 3",
+      "category": "Clothing",
+      "card_bg_color": "rgba(121, 194, 63, 0.15)",
+      "category_bg_color": "rgba(121, 194, 63, 0.20)",
+      "text_color": "#79C23F",
+      "button_color": "#FF5733"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/G7SWHvW/Food.png",
+      "title": "Provide Better Food for Everyone's Well-being",
+      "price": "$290.00",
+      "description": "Description for Item 4",
+      "category": "Food",
+      "card_bg_color": "rgba(248, 113, 71, 0.15)",
+      "category_bg_color": "rgba(248, 113, 71, 0.20)",
+      "text_color": "#F87147",
+      "button_color": "#008CBA"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/mHv6xr5/close-up-people-collecting-food.jpg",
+      "title": "Help Provide Nutritious Food for Families",
+      "price": "$290.00",
+      "description": "Description for Item 5",
+      "category": "Food",
+      "card_bg_color": "rgba(248, 113, 71, 0.15)",
+      "category_bg_color": "rgba(248, 113, 71, 0.20)",
+      "text_color": "#F87147",
+      "button_color": "#008CBA"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/1LSstD9/shop-clothing-clothes-shop-hanger-modern-shop-boutique-1.jpg",
+      "title": "Support Used Clothing Drive for Those in Need",
+      "price": "$290.00",
+      "description": "Description for Item 6",
+      "category": "Clothing",
+      "card_bg_color": "rgba(121, 194, 63, 0.15)",
+      "category_bg_color": "rgba(121, 194, 63, 0.20)",
+      "text_color": "#79C23F",
+      "button_color": "#4CAF50"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/Hg1vcxn/book-1822474-1280.jpg",
+      "title": "Support Quality Education for a Brighter Future",
+      "price": "$290.00",
+      "description": "Description for Item 7",
+      "category": "Education",
+      "card_bg_color": "rgba(255, 68, 74, 0.15)",
+      "category_bg_color": "rgba(255, 68, 74, 0.20)",
+      "text_color": "#FF444A",
+      "button_color": "#4CAF50"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/0CYG0k0/i-love-my-job-so-much.jpg",
+      "title": "Supply Medicine in rural areas Medical Clinics",
+      "price": "$290.00",
+      "description": "Description for Item 8",
+      "category": "Health",
+      "card_bg_color": "rgba(0, 82, 255, 0.15)",
+      "category_bg_color": "rgba(0, 82, 255, 0.20)",
+      "text_color": "#0052FF",
+      "button_color": "#FFC107"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/s5br9Ct/successful-medical-team-1.jpg",
+      "title": "Buy Medical Equipments for Rural Areas Clinics",
+      "price": "$290.00",
+      "description": "Description for Item 9",
+      "category": "Health",
+      "card_bg_color": "rgba(0, 82, 255, 0.15)",
+      "category_bg_color": "rgba(0, 82, 255, 0.20)",
+      "text_color": "#0052FF",
+      "button_color": "#FF5733"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/BCVQWTw/students-3518726-1280.jpg",
+      "title": "Support Quality Education for All",
+      "price": "$290.00",
+      "description": "Description for Item 10",
+      "category": "Education",
+      "card_bg_color": "rgba(255, 68, 74, 0.15)",
+      "category_bg_color": "rgba(255, 68, 74, 0.20)",
+      "text_color": "#FF444A",
+      "button_color": "#008CBA"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/L19VYtP/cloth-campaign.jpg",
+      "title": "Support Used Clothing Drive for Those in Need",
+      "price": "$290.00",
+      "description": "Description for Item 11",
+      "category": "Clothing",
+      "card_bg_color": "rgba(121, 194, 63, 0.15)",
+      "category_bg_color": "rgba(121, 194, 63, 0.20)",
+      "text_color": "#79C23F",
+      "button_color": "#4CAF50"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/4Nz08Jd/close-up-volunteers-working-together.jpg",
+      "title": "Provide Better Food for Everyone's Well-being",
+      "price": "$290.00",
+      "description": "Description for Item 12",
+      "category": "Food",
+      "card_bg_color": "rgba(248, 113, 71, 0.15)",
+      "category_bg_color": "rgba(248, 113, 71, 0.20)",
+      "text_color": "#F87147",
+      "button_color": "#FF5733"
+    }
+  ]
+}
