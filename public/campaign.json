@@ -4,145 +4,145 @@
       "id": 1,
       "image": "https://i.ibb.co/hRpfbYf/closeup-shot-boy-getting-checkup.jpg",
       "title": "Provide Clean Water for Children's Health",
-      "price": "$290.00",
-      "description": "Description for Item 1",
+      "price": "290.00",
+      "description": "Clean water is a fundamental necessity for children's health and well-being. Millions of children around the world suffer from preventable waterborne diseases due to the lack of access to safe drinking water. Your contribution to providing clean water ensures that children can grow and thrive without the burden of illness. It allows them to focus on their education, play, and dreams for a brighter future. Your support doesn't just quench their thirst; it quenches their thirst for a better life, free from the devastating effects of contaminated water sources.",
       "category": "Health",
       "card_bg_color": "rgba(0, 82, 255, 0.15)",
       "category_bg_color": "rgba(0, 82, 255, 0.20)",
       "text_color": "#0052FF",
-      "button_color": "#FF5733"
+      "button_color": "#FF444A"
     },
     {
       "id": 2,
-      "image": "https://i.ibb.co/sjzL5H3/Education.png",
+      "image": "https://i.ibb.co/pZ4dG6k/Successful-Rural-School.jpg",
       "title": "Support Quality Education for All",
-      "price": "$290.00",
-      "description": "Description for Item 2",
+      "price": "290.00",
+      "description": "Quality education is a powerful force for transformation, offering individuals the tools they need to break free from the cycle of poverty. By supporting education for all, you become a catalyst for change, empowering individuals to reach their full potential and contribute to the progress of their communities and societies. Education is the foundation upon which dreams are built, and your support helps create a world where those dreams can become reality for everyone.",
       "category": "Education",
       "card_bg_color": "rgba(255, 68, 74, 0.15)",
       "category_bg_color": "rgba(255, 68, 74, 0.20)",
       "text_color": "#FF444A",
-      "button_color": "#FF5733"
+      "button_color": "#FF444A"
     },
     {
       "id": 3,
       "image": "https://i.ibb.co/bKdJVHK/12178768-4934495.jpg",
       "title": "Donate Clothing for Those in Need",
-      "price": "$290.00",
-      "description": "Description for Item 3",
+      "price": "290.00",
+      "description": "Your donation of clothing goes beyond providing warmth; it restores dignity and self-worth to those facing adversity. It's a simple yet profound act of kindness that can help individuals facing tough times to regain their confidence and sense of belonging. The clothing you provide is not just fabric; it's a symbol of hope and care, reminding recipients that they are not alone in their journey. Your generosity helps create a world where everyone, regardless of their circumstances, can face life's challenges with resilience and a smile.",
       "category": "Clothing",
       "card_bg_color": "rgba(121, 194, 63, 0.15)",
       "category_bg_color": "rgba(121, 194, 63, 0.20)",
       "text_color": "#79C23F",
-      "button_color": "#FF5733"
+      "button_color": "#FF444A"
     },
     {
       "id": 4,
-      "image": "https://i.ibb.co/G7SWHvW/Food.png",
+      "image": "https://i.ibb.co/Dkgkt9N/istockphoto-472165353-612x612.jpg",
       "title": "Provide Better Food for Everyone's Well-being",
-      "price": "$290.00",
-      "description": "Description for Item 4",
+      "price": "290.00",
+      "description": "Access to nutritious food is a cornerstone of health and well-being. When you support better food options, you're investing in the physical and mental vitality of individuals and communities. Improved nutrition fosters stronger immune systems, better cognitive function, and overall healthier lives. Your contribution is a step towards a world where everyone has the opportunity to lead a life filled with energy, vitality, and the ability to pursue their dreams. You're not just providing food; you're nourishing the potential of countless lives.",
       "category": "Food",
       "card_bg_color": "rgba(248, 113, 71, 0.15)",
       "category_bg_color": "rgba(248, 113, 71, 0.20)",
       "text_color": "#F87147",
-      "button_color": "#008CBA"
+      "button_color": "#FF444A"
     },
     {
       "id": 5,
       "image": "https://i.ibb.co/mHv6xr5/close-up-people-collecting-food.jpg",
       "title": "Help Provide Nutritious Food for Families",
-      "price": "$290.00",
-      "description": "Description for Item 5",
+      "price": "290.00",
+      "description": "Hunger should have no place in any family's life. Your support in providing nutritious food for families ensures that every meal is not just a source of sustenance but a source of hope. It's a step towards breaking the cycle of poverty and ensuring that children can grow up strong and resilient. Your generosity has the power to transform not only the lives of families today but also the prospects for generations to come. You're sowing the seeds of a brighter and more secure future for countless families in need.",
       "category": "Food",
       "card_bg_color": "rgba(248, 113, 71, 0.15)",
       "category_bg_color": "rgba(248, 113, 71, 0.20)",
       "text_color": "#F87147",
-      "button_color": "#008CBA"
+      "button_color": "#FF444A"
     },
     {
       "id": 6,
       "image": "https://i.ibb.co/1LSstD9/shop-clothing-clothes-shop-hanger-modern-shop-boutique-1.jpg",
       "title": "Support Used Clothing Drive for Those in Need",
-      "price": "$290.00",
-      "description": "Description for Item 6",
+      "price": "290.00",
+      "description": "A used clothing drive is an act of compassion that echoes through the lives of those it touches. Your support offers more than just garments; it provides warmth, comfort, and a sense of dignity to individuals facing adversity. It tells them that they are seen, valued, and cared for by their community. Your contributions strengthen the bonds of solidarity within society, reminding us that we are all connected and responsible for each other's well-being. You're not just donating clothes; you're uplifting spirits and nurturing a culture of empathy and support.",
       "category": "Clothing",
       "card_bg_color": "rgba(121, 194, 63, 0.15)",
       "category_bg_color": "rgba(121, 194, 63, 0.20)",
       "text_color": "#79C23F",
-      "button_color": "#4CAF50"
+      "button_color": "#FF444A"
     },
     {
       "id": 7,
       "image": "https://i.ibb.co/Hg1vcxn/book-1822474-1280.jpg",
       "title": "Support Quality Education for a Brighter Future",
-      "price": "$290.00",
-      "description": "Description for Item 7",
+      "price": "290.00",
+      "description": "Quality education is a beacon of hope that illuminates the path to a brighter future. By supporting educational initiatives, you're empowering individuals to unlock their potential and drive positive change. Education is the cornerstone of innovation and progress, enabling individuals to envision a world beyond their circumstances. Your support is an investment in a more enlightened and equitable future for all, where knowledge is the key to breaking down barriers and forging a better world.",
       "category": "Education",
       "card_bg_color": "rgba(255, 68, 74, 0.15)",
       "category_bg_color": "rgba(255, 68, 74, 0.20)",
       "text_color": "#FF444A",
-      "button_color": "#4CAF50"
+      "button_color": "#FF444A"
     },
     {
       "id": 8,
       "image": "https://i.ibb.co/0CYG0k0/i-love-my-job-so-much.jpg",
       "title": "Supply Medicine in rural areas Medical Clinics",
-      "price": "$290.00",
-      "description": "Description for Item 8",
+      "price": "290.00",
+      "description": "Access to essential medicines can be a matter of life and death in rural areas. Your efforts to supply medicines to medical clinics in remote regions directly impact the health and well-being of underserved communities. It means timely treatments, reduced suffering, and ultimately, more lives saved. Your contribution bridges the gap in healthcare accessibility, ensuring that geography doesn't determine the quality of care one receives. You're not just supplying medicine; you're providing hope and healing to those who need it most, making healthcare a fundamental right for all.",
       "category": "Health",
       "card_bg_color": "rgba(0, 82, 255, 0.15)",
       "category_bg_color": "rgba(0, 82, 255, 0.20)",
       "text_color": "#0052FF",
-      "button_color": "#FFC107"
+      "button_color": "#FF444A"
     },
     {
       "id": 9,
       "image": "https://i.ibb.co/s5br9Ct/successful-medical-team-1.jpg",
       "title": "Buy Medical Equipments for Rural Areas Clinics",
-      "price": "$290.00",
-      "description": "Description for Item 9",
+      "price": "290.00",
+      "description": "Rural clinics often lack the critical medical equipment needed for diagnosis and treatment. Your support in purchasing medical equipment is a lifeline for these underserved areas. It equips clinics with the tools they need to provide timely and accurate care, saving lives and improving overall health outcomes. Access to medical equipment isn't a luxury; it's a necessity for quality healthcare. Your contribution helps level the healthcare playing field, ensuring that no matter where you live, you have access to the essential medical services required for a healthy life.",
       "category": "Health",
       "card_bg_color": "rgba(0, 82, 255, 0.15)",
       "category_bg_color": "rgba(0, 82, 255, 0.20)",
       "text_color": "#0052FF",
-      "button_color": "#FF5733"
+      "button_color": "#FF444A"
     },
     {
       "id": 10,
-      "image": "https://i.ibb.co/BCVQWTw/students-3518726-1280.jpg",
+      "image": "https://i.ibb.co/7vRzy68/inclusive-childhood-education.jpg",
       "title": "Support Quality Education for All",
-      "price": "$290.00",
-      "description": "Description for Item 10",
+      "price": "290.00",
+      "description": "Quality education is a universal right that has the power to transform individuals and societies. Your support enables people of all backgrounds to access excellent educational opportunities, fostering innovation, knowledge, and global progress. By investing in education for all, we create a world where every person can reach their full potential, contributing to a brighter and more equitable future for generations to come.",
       "category": "Education",
       "card_bg_color": "rgba(255, 68, 74, 0.15)",
       "category_bg_color": "rgba(255, 68, 74, 0.20)",
       "text_color": "#FF444A",
-      "button_color": "#008CBA"
+      "button_color": "#FF444A"
     },
     {
       "id": 11,
       "image": "https://i.ibb.co/L19VYtP/cloth-campaign.jpg",
-      "title": "Support Used Clothing Drive for Those in Need",
-      "price": "$290.00",
-      "description": "Description for Item 11",
+      "title": "Arrangement of Clothing for Those in Need",
+      "price": "290.00",
+      "description": "Providing clothing to those in need is more than a charitable act; it's a statement of compassion and solidarity. Your support ensures that individuals facing challenging circumstances can access essential garments, restoring their sense of dignity and self-esteem. It's a reminder that they are valued members of the community, deserving of warmth and respect. Your contributions help create a world where kindness and generosity prevail, fostering a sense of belonging and unity among us all.",
       "category": "Clothing",
       "card_bg_color": "rgba(121, 194, 63, 0.15)",
       "category_bg_color": "rgba(121, 194, 63, 0.20)",
       "text_color": "#79C23F",
-      "button_color": "#4CAF50"
+      "button_color": "#FF444A"
     },
     {
       "id": 12,
       "image": "https://i.ibb.co/4Nz08Jd/close-up-volunteers-working-together.jpg",
       "title": "Provide Better Food for Everyone's Well-being",
-      "price": "$290.00",
-      "description": "Description for Item 12",
+      "price": "290.00",
+      "description": "Ensuring access to nourishing, high-quality food is essential for enhancing the overall well-being of individuals and communities. Your contribution promotes healthier lifestyles, strengthens immune systems, and improves mental and physical health. It's an investment in a brighter, more vibrant future where everyone has the opportunity to thrive. Access to nutritious food is not a privilege; it's a fundamental right. Your support helps create a world where no one goes to bed hungry, and everyone can enjoy the benefits of a well-nourished life.",
       "category": "Food",
       "card_bg_color": "rgba(248, 113, 71, 0.15)",
       "category_bg_color": "rgba(248, 113, 71, 0.20)",
       "text_color": "#F87147",
-      "button_color": "#FF5733"
+      "button_color": "#FF444A"
     }
   ]
 }
