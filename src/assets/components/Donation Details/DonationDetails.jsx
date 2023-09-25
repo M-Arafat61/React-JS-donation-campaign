@@ -7,7 +7,7 @@ const DonationDetails = () => {
   const loaderData = useLoaderData();
   const { id } = useParams();
   const campaignData = loaderData.data;
-  console.log(campaignData);
+  // console.log(campaignData);
   useEffect(() => {
     const findCampaign = campaignData?.find(
       eachCampaign => eachCampaign.id === parseInt(id)
@@ -16,7 +16,7 @@ const DonationDetails = () => {
   }, [id, campaignData]);
   //   console.log(campaign);
   return (
-    <div>
+    <div className='max-w-screen-xl m-auto'>
       <DonationDetailsCard campaign={campaign}></DonationDetailsCard>
     </div>
   );
