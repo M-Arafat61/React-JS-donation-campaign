@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const DonationDetailsCard = ({ campaign }) => {
   const { id, image, title, price, description, text_color } = campaign || {};
 
@@ -10,13 +14,58 @@ const DonationDetailsCard = ({ campaign }) => {
     if (!addedDonationItems) {
       donationItemsArray.push(campaign);
       localStorage.setItem("donations", JSON.stringify(donationItemsArray));
+      return toast.success("Thank You. You've Successfully Donated!", {
+        style: {
+          color: "white",
+          fontSize: "20px",
+          backgroundColor: "blue",
+        },
+        position: "top-center",
+        autoClose: 4000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+        progress: undefined,
+        theme: "colored",
+      });
     } else {
       const isExist = addedDonationItems.find(donation => donation.id === id);
+
       if (!isExist) {
         donationItemsArray.push(...addedDonationItems, campaign);
         localStorage.setItem("donations", JSON.stringify(donationItemsArray));
+        return toast.success("Thank You. You've Successfully Donated!", {
+          style: {
+            color: "white",
+            fontSize: "20px",
+            backgroundColor: "blue",
+          },
+          position: "top-center",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: false,
+          progress: undefined,
+          theme: "colored",
+        });
       } else {
-        alert("already added");
+        return toast.error("You've Already Donated for this Campaign!", {
+          style: {
+            color: "white",
+            fontSize: "20px",
+            backgroundColor: "red",
+          },
+          position: "top-center",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: false,
+          progress: undefined,
+          theme: "colored",
+        });
       }
     }
   };
@@ -45,6 +94,7 @@ const DonationDetailsCard = ({ campaign }) => {
         <h3 className='text-xl font-bold'>{title}</h3>
         <p>{description}</p>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
