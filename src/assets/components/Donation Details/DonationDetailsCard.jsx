@@ -8,7 +8,6 @@ const DonationDetailsCard = ({ campaign }) => {
   const { id, image, title, price, description, text_color } = campaign || {};
 
   const handleAddToDonation = () => {
-    console.log("clicked donate");
     const donationItemsArray = [];
     const addedDonationItems = JSON.parse(localStorage.getItem("donations"));
     if (!addedDonationItems) {
@@ -73,7 +72,7 @@ const DonationDetailsCard = ({ campaign }) => {
   return (
     <div className='p-10 space-y-5'>
       <div className='relative'>
-        <img className='m-auto object-contain' src={image} alt='' />
+        <img className='m-auto w-full object-cover' src={image} alt='' />
         <div className='absolute w-full bottom-0 bg-black bg-black-rgba text-[#f1f1f1] opacity-100 p-5 '>
           {
             <Link className=''>

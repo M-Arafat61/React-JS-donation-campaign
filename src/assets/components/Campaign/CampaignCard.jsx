@@ -13,7 +13,7 @@ const CampaignCard = ({ campaign }) => {
   } = campaign;
   // console.log(campaign);
   return (
-    <div>
+    <div className='pl-10 pr-10 pt-5 md:p-2'>
       <Link to={`/donation-details/${id}`}>
         <div
           style={{ backgroundColor: card_bg_color }}
@@ -22,7 +22,7 @@ const CampaignCard = ({ campaign }) => {
           <div className=''>
             <div className='flex justify-center items-center '>
               <img
-                className='object-cover rounded-lg h-48'
+                className='object-cover rounded-lg h-48 w-full'
                 src={image}
                 alt=''
               />

@@ -1,9 +1,9 @@
-import App from "../../components/PieChart/PieChart";
+import PChart from "../../components/PieChart/PChart";
 
 const Statistics = () => {
   return (
     <div>
-      <App></App>
+      <PChart></PChart>
     </div>
   );
 };

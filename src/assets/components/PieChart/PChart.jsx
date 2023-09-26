@@ -29,7 +29,7 @@ const renderCustomizedLabel = ({
   );
 };
 
-export default function App() {
+export default function PChart() {
   const [donationStats, setDonationStats] = useState([]);
   const [noDonation, setNoDonation] = useState("");
   useEffect(() => {
@@ -71,7 +71,7 @@ export default function App() {
           </Pie>
         </PieChart>
       </div>
-      <div className='flex items-center justify-center gap-10'>
+      <div className='md:flex items-center justify-center gap-10 mb-10'>
         <div className='flex items-center justify-center gap-5'>
           <p>Your Donation: {donationPercentage.toFixed(2)}%</p>
           <div

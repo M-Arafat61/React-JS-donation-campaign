@@ -6,36 +6,37 @@ const Home = () => {
   const [search, setSearch] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);
   const campaignData = useLoaderData();
-  // console.log(campaignData.data);
-  console.log(search);
 
-  const handleSearch = searchValue => {
-    setSearch(searchValue);
-    if (search !== "") {
-      const filtered = campaignData.data.filter(categoryName =>
-        categoryName.category.toLowerCase().includes(search.toLocaleLowerCase())
-      );
-      setFilteredResults(filtered);
-    } else {
-      setFilteredResults([]);
-    }
+  const handleSearchRecords = () => {
+    const filtered = campaignData.data.filter(eachCampaign =>
+      eachCampaign.category.toLowerCase().includes(search.toLocaleLowerCase())
+    );
+    setFilteredResults(filtered);
   };
-  console.log(filteredResults);
+
+  const renderedResults =
+    filteredResults.length > 0 ? filteredResults : campaignData.data;
+
+  const handleSearchBar = () => {
+    setFilteredResults([]);
+  };
+
   return (
     <>
-      <div className='relative'>
+      <div className='relative mb-5 max-w-screen-xl m-auto '>
         <img
-          className='opacity-20 m-auto object-contain '
+          className='opacity-20 m-auto object-cover p-5 h-[70vh] w-full'
           src='/donation_bg.jpg'
           alt=''
         />
-        <div className='absolute w-full flex flex-col items-center top-1/2'>
+        <div className='absolute w-full flex flex-col items-center bottom-1/2'>
           <h2 className='text-2xl font-bold pb-5'>
             I Grow By Helping People In Need
           </h2>
           <div>
             <input
-              onChange={e => handleSearch(e.target.value)}
+              onChange={e => setSearch(e.target.value)}
+              onBlur={handleSearchBar}
               className='px-3 py-1 text-lg rounded-l-lg'
               type='text'
               name='search'
@@ -43,7 +44,7 @@ const Home = () => {
               placeholder='Search here....'
             />
             <button
-              onClick={() => handleSearch()}
+              onClick={handleSearchRecords}
               className='bg-[#FF444A] text-xl text-white font-semibold px-3 py-1 rounded-r-lg'
             >
               Search
@@ -51,19 +52,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {search ? (
-        <div className='grid mt-10 grid-cols-4 gap-5 max-w-screen-xl m-auto'>
-          {filteredResults.map(campaign => (
-            <Campaign key={campaign.id} campaign={campaign}></Campaign>
-          ))}
-        </div>
-      ) : (
-        <div className='grid mt-10 grid-cols-4 gap-5 max-w-screen-xl m-auto'>
-          {campaignData.data.map(campaign => (
-            <Campaign key={campaign.id} campaign={campaign}></Campaign>
-          ))}
-        </div>
-      )}
+
+      <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 max-w-screen-xl m-auto'>
+        {renderedResults.map(campaign => (
+          <Campaign key={campaign.id} campaign={campaign}></Campaign>
+        ))}
+      </div>
     </>
   );
 };

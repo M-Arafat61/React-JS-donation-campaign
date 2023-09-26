@@ -11,20 +11,20 @@ const Donation = () => {
     if (addedDonationItems) {
       setDonation(addedDonationItems);
     } else {
-      setNoFound("no donations made");
+      setNoFound("No donations made");
     }
   }, []);
-  console.log(donation);
+  // console.log(donation);
   return (
     <>
       {noFound && (
-        <p className='min-h-[100vh] text-center flex justify-center items-center'>
+        <p className='min-h-[50vh] text-center flex justify-center items-center text-2xl font-semibold'>
           {noFound}
         </p>
       )}
 
       {seeAll ? (
-        <div className='max-w-screen-xl m-auto grid grid-cols-2 gap-5 p-10'>
+        <div className='max-w-screen-xl m-auto grid grid-cols-1 md:grid-cols-2 gap-5 p-5 md:p-10'>
           {donation.map(eachDonation => (
             <DonationsCard
               key={eachDonation.id}
@@ -33,7 +33,7 @@ const Donation = () => {
           ))}
         </div>
       ) : (
-        <div className='max-w-screen-xl m-auto grid grid-cols-2 gap-5 p-10'>
+        <div className='max-w-screen-xl m-auto grid grid-cols-1 md:grid-cols-2 gap-5 p-5 md:p-10'>
           {donation.slice(0, 4).map(eachDonation => (
             <DonationsCard
               key={eachDonation.id}
