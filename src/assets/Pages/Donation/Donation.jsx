@@ -14,8 +14,7 @@ const Donation = () => {
       setNoFound("no donations made");
     }
   }, []);
-  // console.log(donation);
-
+  console.log(donation);
   return (
     <>
       {noFound && (
@@ -23,14 +22,6 @@ const Donation = () => {
           {noFound}
         </p>
       )}
-      {/* <div className='max-w-screen-xl m-auto grid grid-cols-2 gap-5 p-10'>
-        {donation.slice(0, 4).map(eachDonation => (
-          <DonationsCard
-            key={eachDonation.id}
-            eachDonation={eachDonation}
-          ></DonationsCard>
-        ))}
-      </div> */}
 
       {seeAll ? (
         <div className='max-w-screen-xl m-auto grid grid-cols-2 gap-5 p-10'>

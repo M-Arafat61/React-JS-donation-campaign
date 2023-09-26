@@ -1,7 +1,9 @@
+import App from "../../components/PieChart/PieChart";
+
 const Statistics = () => {
   return (
     <div>
-      <h2>Here will be pie chart</h2>
+      <App></App>
     </div>
   );
 };

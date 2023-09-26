@@ -3,8 +3,8 @@ import MainLayout from "../MainLayout/MainLayout";
 
 import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
-import Statistics from "../Pages/Statistics/Statistics";
 import DonationDetails from "../components/Donation Details/DonationDetails";
+import Statistics from "../Pages/Statistics/Statistics";
 
 const myCreatedRoute = createBrowserRouter([
   {
