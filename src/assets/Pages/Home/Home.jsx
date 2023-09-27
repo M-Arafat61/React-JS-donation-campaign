@@ -19,18 +19,18 @@ const Home = () => {
 
   return (
     <>
-      <div className='relative mb-5 max-w-screen-xl m-auto '>
+      <div className='relative mb-5 max-w-screen-xl m-auto flex flex-col justify-center items-center'>
         <img
           className='opacity-20 m-auto object-cover p-5 h-[70vh] w-full'
           src='/donation_bg.jpg'
           alt=''
         />
-        <div className='absolute w-full flex flex-col items-center bottom-1/2'>
-          <h2 className='text-2xl font-bold pb-5'>
+        <div className='absolute '>
+          <h2 className='text-xl md:text-2xl font-bold pb-5'>
             I Grow By Helping People In Need
           </h2>
 
-          <div className='flex justify-center items-center'>
+          <div className=''>
             <input
               className='px-3 py-1 text-lg rounded-l-lg'
               onChange={e => setSearch(e.target.value)}
