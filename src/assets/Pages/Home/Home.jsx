@@ -15,11 +15,7 @@ const Home = () => {
   };
 
   const renderedResults =
-    filteredResults.length > 0 ? filteredResults : campaignData.data;
-
-  const handleSearchBar = () => {
-    setFilteredResults([]);
-  };
+    search.length > 0 ? filteredResults : campaignData.data;
 
   return (
     <>
@@ -33,20 +29,18 @@ const Home = () => {
           <h2 className='text-2xl font-bold pb-5'>
             I Grow By Helping People In Need
           </h2>
-          <div>
+
+          <div className='flex justify-center items-center'>
             <input
-              onChange={e => setSearch(e.target.value)}
-              onBlur={handleSearchBar}
               className='px-3 py-1 text-lg rounded-l-lg'
+              onChange={e => setSearch(e.target.value)}
               type='text'
               name='search'
               id=''
               placeholder='Search here....'
+              onInput={handleSearchRecords}
             />
-            <button
-              onClick={handleSearchRecords}
-              className='bg-[#FF444A] text-xl text-white font-semibold px-3 py-1 rounded-r-lg'
-            >
+            <button className='bg-[#FF444A] text-xl text-white font-semibold px-3 py-1 rounded-r-lg'>
               Search
             </button>
           </div>
