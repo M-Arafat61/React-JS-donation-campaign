@@ -1,6 +1,6 @@
 # Donation Campaign
 
-[Donation Campaign](<https://ass8-dchampaign.surge.sh>)
+[Donation Campaign Live](<https://ass8-dchampaign.surge.sh>)
 
 - ## Project features
 
